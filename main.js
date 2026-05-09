@@ -3,5 +3,7 @@ const RedgifsDownloader = require("redgifs-downloader")
 // Gifs will be downloaded into their corresponding subdirectories
 const downloader = RedgifsDownloader.create("research")
 downloader.downloadQuery("hadnjob")
-downloader.downloadQuery("squirting")
+downloader.downloadQuery("cumshot")
 
+const links = await RedgifsDownloader.getSearchLinks("cum", {minLikes: 3})
+cosnole.log(links)
